@@ -1,0 +1,23 @@
+# ---------------------------------------------------------------------------
+# 中间产物目录。里面是 r2modman 自己的内容（解包出来的 app.asar：node_modules、
+# Quasar 源码等），既属于第三方、又动辄几百 MB，绝不入库。
+# 全部可由 verify\run-all.ps1 或 pack\tools\r2modman-zhcn.ps1 从你本机的
+# app.asar 重新生成。
+# ---------------------------------------------------------------------------
+work/
+
+# 构建产物：发布 zip 通过 GitHub Release 分发，不入库
+dist/
+
+# OS / 编辑器
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# 万一有人把安装副本拷进来
+app.asar
+app.asar.zhcn-*
+*.asar.zhcn-*

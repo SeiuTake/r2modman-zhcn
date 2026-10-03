@@ -1,0 +1,7 @@
+# 全部按二进制处理，不做任何行尾转换。
+#
+# 原因：pack\tools\r2modman-zhcn.ps1 等脚本以 UTF-8 with BOM 保存（Windows
+# PowerShell 5.1 在没有 BOM 时会按系统 ANSI 代码页解析，中文会变乱码并直接语法
+# 报错），而 core.autocrlf 的换行转换会在 clone 时改动字节、影响 BOM 与哈希。
+# 这些脚本的字节必须原样进、原样出。
+* -text

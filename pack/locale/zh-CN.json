@@ -1,0 +1,1203 @@
+{
+  "metadata": {
+    "name": "简体中文",
+    "locale": "zh-CN"
+  },
+  "translations": {
+    "pages": {
+      "gameSelection": {
+        "pageTitle": {
+          "title": {
+            "game": "选择游戏",
+            "server": "选择服务器"
+          },
+          "subtitle": {
+            "game": "你要为哪款游戏管理 Mod？",
+            "server": "你要为哪个专用服务器管理 Mod？"
+          }
+        },
+        "migrationNotice": {
+          "requiresUpdate": "管理器已更新，需要在后台执行一些工作。",
+          "actionsDisabled": "在后台工作完成之前，无法选择游戏。"
+        },
+        "tabs": {
+          "game": "游戏",
+          "server": "服务器"
+        },
+        "noResults": {
+          "empty": {
+            "game": "没有找到与 \"{filterText}\" 匹配的游戏",
+            "server": "没有找到与 \"{filterText}\" 匹配的服务器"
+          },
+          "title": "找不到你要的内容？",
+          "suggestion": "换个游戏名称或关键词试试。我们可能尚未支持这款游戏。"
+        },
+        "actions": {
+          "select": {
+            "game": "选择游戏",
+            "server": "选择服务器"
+          },
+          "setAsDefault": "设为默认",
+          "request": {
+            "game": "申请添加新游戏",
+            "server": "申请添加新服务器"
+          }
+        },
+        "filter": {
+          "placeholder": {
+            "game": "搜索游戏",
+            "server": "搜索服务器"
+          }
+        },
+        "cardView": {
+          "imageAltText": "游戏图片",
+          "newBadge": "新",
+          "sections": {
+            "favourites": "收藏",
+            "games": "游戏",
+            "servers": "服务器",
+            "newlyAdded": {
+              "games": "新增游戏",
+              "servers": "新增服务器"
+            },
+            "searchResults": "搜索结果",
+            "hiddenGames": "已隐藏的游戏",
+            "hiddenGamesNotice": "这些游戏已不再受支持。"
+          }
+        },
+        "ecosystemUpdate": {
+          "updating": "正在更新游戏列表",
+          "upToDate": "游戏列表已是最新",
+          "failed": "更新游戏列表失败",
+          "retry": "重试更新游戏列表"
+        },
+        "loading": "正在准备游戏"
+      },
+      "splash": {
+        "pageTitle": "正在启动 {appName}",
+        "gameUpdatesWarning": "游戏更新可能会导致 Mod 失效。如果游戏刚刚发布了新版本，请耐心等待。",
+        "menu": {
+          "helpLabel": "帮助",
+          "helpItems": {
+            "about": "关于",
+            "faq": "常见问题"
+          }
+        },
+        "actions": {
+          "goBack": "返回"
+        },
+        "content": {
+          "main": {
+            "didYouKnow": "你知道吗？",
+            "externalInstallWithModManager": "你可以在 Thunderstore 上使用「使用 Mod 管理器安装」按钮，通过 {appName} 安装 Mod。",
+            "goToThunderstore": "前往 Thunderstore",
+            "exportProfile": "你可以在设置页面将所选配置档导出为文件或代码，这样就能轻松地把 Mod 列表分享给朋友！",
+            "havingTrouble": {
+              "title": "遇到问题？",
+              "body": "请在 {appName} 的 Discord 服务器支持频道中发送错误截图。",
+              "serverLinkText": "加入 {appName} 的 Discord 服务器"
+            }
+          },
+          "about": {
+            "title": "关于 {appName}",
+            "creator": "作者：Ebkr。",
+            "techStack": {
+              "builtUsing": "本应用使用 Quasar 构建，其技术栈如下：",
+              "electron": "Electron",
+              "node": "NodeJS",
+              "vue": "Vue 3",
+              "typescript": "TypeScript"
+            }
+          },
+          "faq": {
+            "title": "常见问题",
+            "howToGetStarted": {
+              "title": "如何开始使用？",
+              "body": "前往「在线」标签页下载你喜欢的 Mod，然后点击「带 Mod 启动」即可开始游戏。"
+            },
+            "startingWithMods": {
+              "title": "带 Mod 启动游戏",
+              "body": "你必须从管理器内部启动游戏。直接通过 Steam 启动不会加载 Mod，除非手动修改启动参数。"
+            }
+          }
+        },
+        "states": {
+          "preparing": "正在准备",
+          "checkingForUpdates": "正在检查更新",
+          "checkingForLocalCache": "正在检查本地缓存的 Mod 列表",
+          "checkingForThunderstoreUpdates": "正在从 Thunderstore 检查 Mod 列表更新",
+          "loadingLatestThunderstoreList": "正在从 Thunderstore 加载最新 Mod 列表",
+          "pruningLocalCache": "正在清理本地缓存中已移除的 Mod",
+          "processingModList": "正在处理 Mod 列表"
+        }
+      },
+      "profileSelection": {
+        "pageTitle": {
+          "title": "选择配置档",
+          "subtitle": "配置档可以帮你轻松整理 Mod"
+        },
+        "actions": {
+          "backToGameSelection": "返回选择游戏",
+          "select": "选择",
+          "rename": "重命名",
+          "create": "新建",
+          "import": "导入 / 更新",
+          "delete": "删除"
+        },
+        "error": {
+          "selectProfile": "选择配置档时出错",
+          "updateProfileList": "更新配置档列表时出错"
+        }
+      },
+      "manager": {
+        "navigation": {
+          "gameActions": {
+            "startModded": "带 Mod 启动",
+            "startVanilla": "原版启动"
+          },
+          "modsActions": {
+            "label": "Mod",
+            "installed": "已安装",
+            "online": "在线"
+          },
+          "otherActions": {
+            "label": "其他",
+            "configEditor": "配置文件编辑器",
+            "settings": "设置",
+            "help": "帮助"
+          },
+          "profileSwitcher": {
+            "label": "配置档",
+            "gameIconAltText": "游戏图片",
+            "close": "关闭"
+          },
+          "activityBar": {
+            "exportProfile": "导出配置档",
+            "exportToCode": "导出为代码",
+            "exportToFile": "导出为文件",
+            "refreshingModList": "正在刷新 Mod 列表：{progress}%"
+          }
+        },
+        "installed": {
+          "noModsInstalled": {
+            "title": "你还没有安装任何 Mod",
+            "content": "点击左侧的「在线」标签页即可浏览所有可用的 Mod。"
+          },
+          "searchAndSort": {
+            "search": {
+              "label": "搜索",
+              "placeholder": "搜索已安装的 Mod"
+            },
+            "sort": {
+              "label": "排序",
+              "disabledPositions": {
+                "label": "已禁用"
+              }
+            }
+          },
+          "localModCard": {
+            "labels": {
+              "deprecated": "已弃用",
+              "disabled": "已禁用"
+            },
+            "display": {
+              "byline": "v{version} · 作者 {author}",
+              "installedAt": "安装于：{formattedDate}",
+              "releasedAt": "发布于：{formattedDate}"
+            },
+            "concerning": {
+              "recommendation": "建议卸载此 Mod。"
+            },
+            "tooltips": {
+              "updateAvailable": "有可用更新",
+              "dependencyIssue": "此 Mod 的依赖项存在问题",
+              "disable": "禁用",
+              "enable": "启用",
+              "donate": "赞助 Mod 作者",
+              "willNotBeUsed": "此 Mod 不会在游戏内生效"
+            },
+            "actions": {
+              "uninstall": "卸载",
+              "disable": "禁用",
+              "enable": "启用",
+              "associated": "关联",
+              "openWebsite": "网站",
+              "update": "更新",
+              "downloadDependency": "下载依赖",
+              "enableSpecific": "启用 {dependencyName}",
+              "donate": "赞助"
+            }
+          },
+          "expandableCard": {
+            "imageAltText": "Mod 图片",
+            "funkyModeAltText": "Funky 模式覆盖层",
+            "tooltips": {
+              "dragToReorder": "拖动以重新排序",
+              "expand": "展开",
+              "collapse": "折叠"
+            }
+          }
+        },
+        "online": {
+          "previewPanel": {
+            "author": "作者：{author}",
+            "metadata": {
+              "downloads": "下载量：{downloads}",
+              "likes": "点赞数：{likes}",
+              "lastUpdated": "最后更新：{date}",
+              "categories": "分类：{categories}"
+            },
+            "actions": {
+              "download": "下载",
+              "viewOnline": "在线查看",
+              "donate": "赞助"
+            },
+            "tabs": {
+              "readme": "README",
+              "changelog": "CHANGELOG",
+              "dependencies": "依赖项（{dependencyCount}）"
+            },
+            "packageInformation": "Mod 包信息",
+            "nsfwWarning": "此 Mod 可能包含成人内容",
+            "fetchingData": "正在获取数据",
+            "noDependencies": "此 Mod 没有依赖项",
+            "unableToFetchReadme": "无法获取 README",
+            "unableToFetchChangelog": "无法获取 CHANGELOG"
+          },
+          "topbar": {
+            "search": {
+              "label": "搜索",
+              "placeholder": "搜索 Mod"
+            },
+            "sort": "排序",
+            "filter": "筛选"
+          },
+          "pagination": {
+            "changePageInfo": "使用下方的数字切换页面",
+            "noFoundMods": "没有找到匹配的 Mod",
+            "noMods": "没有可用的 Mod"
+          },
+          "modList": {
+            "tooltips": {
+              "pinned": {
+                "short": "已置顶",
+                "long": "已在 Thunderstore 置顶"
+              },
+              "deprecated": {
+                "short": "已弃用",
+                "long": "此 Mod 可能已失效"
+              },
+              "donate": "赞助 Mod 作者",
+              "installed": "Mod 已安装",
+              "nsfw": "此 Mod 被标记为 NSFW"
+            },
+            "mod": {
+              "author": "作者：{author}"
+            },
+            "actions": {
+              "download": "下载",
+              "website": "网站"
+            }
+          }
+        },
+        "actions": {
+          "locateGameExecutable": "定位 {gameName} 可执行文件",
+          "selectExecutable": "选择可执行文件",
+          "locateGameLaunchHelper": "定位 gamelaunchhelper 可执行文件",
+          "locateSteamExecutable": "定位 Steam 可执行文件"
+        }
+      },
+      "help": {
+        "hero": {
+          "title": "帮助",
+          "subtitle": "常见问题及其解决方法"
+        },
+        "tabs": {
+          "general": "常规",
+          "gameWontStart": "游戏无法启动",
+          "modsNotShowing": "Mod 未生效",
+          "updating": "更新"
+        },
+        "general": {
+          "gettingStarted": {
+            "title": "从安装 Mod 开始",
+            "whereToFindMods": "前往「{''}@:translations.pages.manager.navigation.modsActions.online{''}」标签页，找到想要的 Mod 并点击下载。它还会自动下载依赖项，为你省去麻烦。",
+            "onceInstalled": "安装好想用的 Mod 后，只需点击左上角的 {startModdedAction}。"
+          },
+          "slowGame": {
+            "title": "装了 Mod 后游戏变慢 / 卡顿？",
+            "likelyCause": "这很可能是某个 Mod 报错导致的。一种解决办法是先禁用一半 Mod，然后看看问题是否依然存在。",
+            "issuePersisting": "如果问题依然存在，再禁用剩下的一半。重复此过程，直到问题解决。",
+            "ifStutters": "如果是卡顿问题，可以尝试使用优化类 Mod 来改善。"
+          },
+          "dedicatedServers": {
+            "title": "专用服务器",
+            "content": "管理器并不直接支持专用服务器，但有一个替代方案：把配置档文件夹的内容复制到你的专用服务器文件夹中。"
+          },
+          "launchingExternally": {
+            "title": "从 Mod 管理器之外启动游戏",
+            "howTo": "按设计，通过 Steam 启动游戏时不会加载任何 Mod（即原版体验）。",
+            "whereToPlace": "你需要把对应的参数填入所用平台相应的启动参数设置中。",
+            "forSteam": "对于 Steam，该设置在游戏的「属性」中。",
+            "yourCurrentArgument": "你当前的参数为：",
+            "loaderNotInstalled": "安装 Mod 加载器后即可使用这些参数。",
+            "copyArguments": "复制启动参数"
+          }
+        },
+        "gameWontStart": {
+          "errorModal": {
+            "title": "启动游戏时出现红色提示框",
+            "solution": "红框底部通常会有解决建议，也许能解决问题。"
+          },
+          "redirectedToStorePage": {
+            "title": "我被跳转到了 Steam 商店页面",
+            "solution": "使用 {appName} 需要拥有游戏的合法副本。你可以在商店页面购买。"
+          },
+          "consoleCloses": {
+            "title": "出现一个文本窗口后立即关闭",
+            "tryRunning": "请在设置页面尝试执行「重置 {gameName} 安装」。",
+            "ifPersists": "如果问题依旧，请强制退出 Steam，并在 Steam 完全关闭的情况下带 Mod 启动。"
+          }
+        },
+        "modsNotShowing": {
+          "potentialSolutions": {
+            "title": "可能的解决方法",
+            "instructToWiki": "大多数常见问题都可以通过严格按 Wiki 上的说明操作来解决。",
+            "goToWiki": "前往 Wiki"
+          }
+        },
+        "updating": {
+          "autoUpdates": {
+            "title": "自动更新",
+            "whenDoesItUpdate": "如果有可用更新，管理器会在关闭时自动更新。",
+            "downloadedInBackground": "更新会在后台下载。",
+            "promptToRunOldInstaller": "系统可能会提示你以管理员身份运行「{oldInstaller}」，这就是更新程序。",
+            "ifProblemOccurs": "如果更新出现问题，请下载并运行最新版安装程序。"
+          },
+          "ignoreUpdates": {
+            "title": "我不想更新",
+            "content": "GitHub 上提供了不会自动更新的便携版。不过启动时仍会提示你有可用更新。"
+          }
+        }
+      },
+      "settings": {
+        "hero": {
+          "title": "设置",
+          "subtitle": "{appName} 的高级选项：{version}"
+        },
+        "nav": {
+          "label": "分区",
+          "categories": {
+            "all": "全部",
+            "directories": "目录",
+            "profile": "配置档",
+            "appearance": "外观",
+            "debugging": "调试",
+            "modpacks": "整合包",
+            "other": "其他"
+          }
+        },
+        "search": {
+          "label": "搜索",
+          "placeholder": "搜索设置项"
+        },
+        "actions": {
+          "change": "更改",
+          "browse": "浏览",
+          "notSet": "未设置"
+        },
+        "entries": {
+          "changeLaunchBehaviour": {
+            "title": "更改启动方式",
+            "description": "选择具体的启动方式。你可以告诉管理器某款游戏明确使用 Native 还是 Proton。",
+            "current": "当前启动方式为：",
+            "searchTerms": [
+              "更改启动方式",
+              "设置启动模式",
+              "Proton",
+              "Native",
+              "自动"
+            ]
+          },
+          "cleanOnlineModListCache": {
+            "title": "清理在线 Mod 列表缓存",
+            "description": "删除本地的 Mod 列表副本并重新获取。",
+            "action": "清理在线 Mod 列表",
+            "searchTerms": [
+              "清理在线 Mod 列表缓存",
+              "重置"
+            ]
+          },
+          "copyLogToClipboard": {
+            "title": "复制日志到剪贴板",
+            "description": "将日志文件内容复制到剪贴板，已按 Discord 格式排版。",
+            "searchTerms": [
+              "复制日志文件内容到剪贴板",
+              "LogOutput",
+              "LogOutput.txt",
+              "Discord"
+            ]
+          },
+          "copyTroubleshooting": {
+            "title": "复制故障排查信息到剪贴板",
+            "description": "将设置及其他信息复制到剪贴板，已按 Discord 格式排版。寻求帮助时请分享这些内容。",
+            "searchTerms": [
+              "复制故障排查信息到剪贴板",
+              "Discord",
+              "支持",
+              "系统"
+            ]
+          },
+          "dataDirectory": {
+            "title": "数据与配置档文件夹",
+            "description": "存放所有游戏和配置档 Mod 的文件夹。",
+            "warning": "更改数据文件夹不会移动或删除已有的配置档，它们会保留在原文件夹中。",
+            "dataFolder": "数据文件夹",
+            "profileFolder": "配置档文件夹",
+            "dialog": {
+              "title": "选择存放 {appName} 数据的新文件夹",
+              "button": "选择数据文件夹"
+            },
+            "searchTerms": [
+              "数据与配置档目录",
+              "更改",
+              "浏览",
+              "文件夹",
+              "目录"
+            ]
+          },
+          "downloadCache": {
+            "title": "下载缓存",
+            "description": "启用后，如果缓存中已有副本，将会跳过下载。",
+            "enabled": "启用（推荐）",
+            "disabled": "禁用",
+            "searchTerms": [
+              "切换下载缓存",
+              "下载缓存",
+              "切换"
+            ]
+          },
+          "expandCards": {
+            "title": "默认展开卡片",
+            "description": "打开 Mod 列表时，卡片默认完全展开，而不是折叠状态。",
+            "expanded": "展开",
+            "collapsed": "折叠",
+            "searchTerms": [
+              "默认展开卡片",
+              "切换",
+              "折叠",
+              "展开"
+            ]
+          },
+          "exportProfile": {
+            "title": "导出配置档",
+            "description": "导出你的 Mod 列表和配置文件，方便与朋友分享，快速获得完全相同的配置档。",
+            "asFile": "导出为文件",
+            "asCode": "导出为代码",
+            "dialog": {
+              "title": "选择导出配置档的目标文件夹",
+              "button": "选择导出文件夹"
+            },
+            "searchTerms": [
+              "导出配置档",
+              "导出为文件",
+              "导出为代码"
+            ]
+          },
+          "funkyMode": {
+            "title": "启用 Funky 模式",
+            "description": "这就是 Funky 模式。",
+            "enabled": "启用",
+            "disabled": "禁用",
+            "searchTerms": [
+              "启用 Funky 模式",
+              "切换",
+              "禁用"
+            ]
+          },
+          "gameDirectory": {
+            "title": "{gameName} 文件夹",
+            "description": "需要游戏目录才能把相关文件放到正确的位置。",
+            "warning": "如果没有正确设置，{gameName} 启动时不会加载 Mod。",
+            "unsure": "我不确定该选哪个",
+            "searchTerms": [
+              "{gameName} 文件夹",
+              "更改",
+              "浏览",
+              "游戏",
+              "目录",
+              "文件夹"
+            ]
+          },
+          "importLocalMod": {
+            "title": "导入本地 Mod",
+            "description": "从本地文件离线安装 Mod。并非所有 Mod 都能通过本地方式安装。",
+            "searchTerms": [
+              "导入本地 Mod",
+              "离线安装",
+              "导入"
+            ]
+          },
+          "launchArguments": {
+            "title": "启动参数",
+            "description": "设置启动游戏时附加的自定义参数。",
+            "action": "设置启动参数",
+            "searchTerms": [
+              "设置自定义启动参数",
+              "启动参数"
+            ]
+          },
+          "modCache": {
+            "title": "Mod 缓存",
+            "description": "下载过的 Mod 会保存在缓存中，这样就不需要重复下载。",
+            "stillWritten": "Mod 仍会写入缓存，并继续占用磁盘空间。",
+            "action": "清理缓存",
+            "actionDescription": "移除不属于任何配置档的缓存 Mod，释放存储空间。",
+            "enabled": "启用",
+            "disabled": "禁用",
+            "enabledHint": "复用已缓存的下载（推荐）",
+            "disabledHint": "下载 Mod 时忽略缓存，每次都重新下载。",
+            "searchTerms": [
+              "Mod 缓存",
+              "下载",
+              "复用已缓存的下载",
+              "切换",
+              "清理 Mod 缓存",
+              "释放空间",
+              "清除",
+              "存储"
+            ]
+          },
+          "modState": {
+            "title": "更改 Mod 状态",
+            "description": "启用 / 禁用配置档中的所有 Mod。",
+            "enableAll": "启用所有 Mod",
+            "disableAll": "禁用所有 Mod",
+            "allEnabled": "你的所有 Mod 当前均已启用。",
+            "allDisabled": "你的所有 Mod 当前均已禁用。",
+            "someDisabled": "你有 1 个 Mod 已禁用。 | 你有 {count} 个 Mod 已禁用。",
+            "searchTerms": [
+              "更改 Mod 状态",
+              "切换",
+              "启用所有 Mod",
+              "禁用所有 Mod"
+            ]
+          },
+          "onlineModList": {
+            "title": "在线 Mod 列表",
+            "description": "检查是否有新的 Mod 版本，或清除本地副本。",
+            "refresh": "刷新",
+            "deleteCopy": "删除副本",
+            "states": {
+              "refreshing": "正在刷新…",
+              "error": "刷新 Mod 列表时出错：{message}",
+              "disabledWhileDownloading": "有下载任务进行中时无法刷新 Mod 列表。",
+              "lastUpdated": "最后更新：{date}",
+              "noApiInfo": "没有可用的 API 信息"
+            },
+            "searchTerms": [
+              "刷新在线 Mod 列表",
+              "检查新的 Mod 版本",
+              "清理在线 Mod 列表缓存",
+              "重置 Mod 列表缓存"
+            ]
+          },
+          "refreshOnlineModList": {
+            "title": "刷新在线 Mod 列表",
+            "description": "检查是否有新的 Mod 版本。{status}",
+            "action": "刷新",
+            "states": {
+              "refreshing": "正在刷新…",
+              "error": "刷新 Mod 列表时出错：{message}",
+              "disabledWhileDownloading": "有下载任务进行中时无法刷新 Mod 列表。",
+              "cacheDate": "缓存日期：{date}",
+              "noApiInfo": "没有可用的 API 信息"
+            },
+            "searchTerms": [
+              "刷新在线 Mod 列表",
+              "检查新的 Mod 版本",
+              "Thunderstore Mod"
+            ]
+          },
+          "resetGameInstallation": {
+            "title": "重置 {gameName} 安装",
+            "description": "修复由文件损坏或手动安装 Mod 残留文件导致的问题。这将删除 {folderName} 文件夹中的所有内容，并通过 Steam 校验文件。",
+            "action": "重置安装",
+            "searchTerms": [
+              "重置 {gameName} 安装",
+              "校验文件",
+              "验证完整性",
+              "损坏",
+              "文件"
+            ]
+          },
+          "showDependencyStrings": {
+            "title": "显示依赖字符串",
+            "description": "查看已安装 Mod 及其版本字符串的列表，格式与 manifest.json 中 dependencies 数组所用的一致。共显示 {modCount} 个 Mod 的依赖字符串。",
+            "searchTerms": [
+              "显示依赖字符串"
+            ]
+          },
+          "steamDirectory": {
+            "title": "Steam 文件夹",
+            "description": "包含 Steam 可执行文件的文件夹。",
+            "value": "{appName} 将通过它启动游戏。",
+            "searchTerms": [
+              "更改 Steam 文件夹",
+              "更改 Steam 目录",
+              "浏览",
+              "目录"
+            ]
+          },
+          "theme": {
+            "title": "主题",
+            "description": "为管理器选择浅色或深色外观。",
+            "light": "浅色",
+            "dark": "深色",
+            "searchTerms": [
+              "主题",
+              "浅色",
+              "深色",
+              "外观"
+            ]
+          },
+          "toggleCdn": {
+            "title": "切换首选 Thunderstore CDN",
+            "description": "切换 CDN，重启应用后失效。这或许能绕过 Mod 下载遇到的问题。",
+            "action": "切换首选 CDN",
+            "current": "当前：{label}",
+            "searchTerms": [
+              "切换首选 Thunderstore CDN",
+              "更改"
+            ]
+          },
+          "updateAllMods": {
+            "title": "更新所有 Mod",
+            "description": "快速把所有已安装的 Mod 更新到最新版本。{status}",
+            "status": "1 个 Mod 有可用更新。 | {count} 个 Mod 有可用更新。",
+            "searchTerms": [
+              "更新所有 Mod"
+            ]
+          }
+        }
+      },
+      "configEditor": {
+        "hero": {
+          "title": "配置文件编辑器",
+          "subtitle": "选择要编辑的配置文件"
+        },
+        "warning": {
+          "content": "配置文件需要在安装 Mod 后至少启动游戏一次才会生成。"
+        },
+        "loading": "正在查找配置文件",
+        "actions": {
+          "delete": "删除",
+          "editConfig": "编辑配置",
+          "openFile": "打开文件",
+          "search": {
+            "label": "搜索",
+            "placeholder": "搜索配置文件"
+          },
+          "sort": {
+            "label": "排序"
+          }
+        },
+        "editConfig": {
+          "actions": {
+            "cancel": "取消",
+            "save": "保存",
+            "showMore": "显示更多",
+            "showLess": "收起"
+          },
+          "sections": "分区",
+          "hiddenCount": "（隐藏 1 项） | （隐藏 {count} 项）",
+          "selectOption": "选择一个选项",
+          "subtitle": "正在编辑配置文件"
+        }
+      },
+      "downloadMonitor": {
+        "title": {
+          "text": "下载",
+          "subtitle": "查看下载进度"
+        },
+        "actions": {
+          "retry": "重试",
+          "remove": "移除"
+        },
+        "state": {
+          "hasNothing": {
+            "inform": "当前没有正在下载的内容",
+            "action": "点击此处去下载"
+          },
+          "hasContent": {
+            "action": "清除已完成",
+            "downloadFailed": "下载失败",
+            "downloadComplete": "下载完成"
+          },
+          "modProgress": {
+            "downloading": "正在下载：{modName}",
+            "extracting": "正在解压：{modName}",
+            "progress": "{progress}%（共 {totalSize}）",
+            "installing": "正在安装：{modName}",
+            "waiting": "等待下载完成",
+            "installProgress": "已完成 {progress}%"
+          }
+        }
+      },
+      "linuxSetup": {
+        "hero": {
+          "title": "在 {platformName} 上开始使用",
+          "subtitle": "让我们把游戏配置好"
+        },
+        "flatpakWarning": {
+          "existingArguments": "你之前似乎设置过启动参数。",
+          "notice": "{appName} 的 Flatpak 版本现在使用不同的包装脚本。",
+          "mustUpdate": "你必须更新启动参数才能支持这一改动。"
+        },
+        "instructions": {
+          "intro": "要在 Linux 上启动 {gameName}，你必须先正确设置 Steam 启动选项。",
+          "whyNeeded": "这是必需的，因为 BepInEx 在 Unix 系统上的注入方式比较特殊。",
+          "copyInstruction": "请将以下内容复制粘贴到 {gameName} 的启动选项中："
+        },
+        "actions": {
+          "copy": "复制到剪贴板",
+          "copied": "已复制！",
+          "continue": "继续"
+        }
+      },
+      "error404": {
+        "message": "抱歉，这里什么都没有… {code}",
+        "actions": {
+          "goBack": "返回"
+        }
+      }
+    },
+    "platforms": {
+      "STEAM": "Steam",
+      "STEAM_DIRECT": "Steam",
+      "EPIC_GAMES_STORE": "Epic 游戏商城",
+      "OCULUS_STORE": "Oculus / Meta 商店",
+      "ORIGIN": "Origin / EA App",
+      "XBOX_GAME_PASS": "Xbox Game Pass",
+      "OTHER": "其他"
+    },
+    "modListStatus": {
+      "checkingForUpdates": "正在从 Thunderstore 检查 Mod 列表更新",
+      "loadingLatestModList": "正在从 Thunderstore 加载最新 Mod 列表：{progress}%",
+      "pruneCache": "正在清理本地缓存中已移除的 Mod",
+      "processingModList": "正在处理 Mod 列表",
+      "almostDone": "即将完成",
+      "resettingCache": "正在重置 Mod 列表缓存"
+    },
+    "banners": {
+      "concerningPackage": {
+        "text": "你有部分 Mod 已无法在 Thunderstore 上找到。",
+        "action": "点击此处查看这些 Mod。"
+      },
+      "managerUpdate": {
+        "title": "{appName} 有可用更新。",
+        "linkText": "点击此处前往发布页面。"
+      },
+      "modListUpdate": {
+        "error": "刷新 Mod 列表时出错。",
+        "viewDetails": "查看错误详情",
+        "willKeepTrying": "管理器会在后台继续尝试刷新 Mod 列表。",
+        "errorOccurred": "从 Thunderstore 刷新 Mod 列表时发生错误。",
+        "blockedByDownloads": "但是，在有 Mod 正在下载时无法刷新 Mod 列表。",
+        "waitForDownloads": "请等下载完成后再继续。",
+        "retryPrompt": "从 Thunderstore 刷新 Mod 列表时发生错误。要{retryAction}吗？",
+        "retryAction": "立即重试"
+      },
+      "updatableMods": {
+        "text": "你有 {numberOfModsWithUpdates} 个 Mod 有可用更新。 | 你有 {numberOfModsWithUpdates} 个 Mod 有可用更新。",
+        "updateAction": "全部更新？"
+      }
+    },
+    "modals": {
+      "failedToSetSteamFolder": {
+        "title": "设置 Steam 文件夹失败",
+        "steamExecutableNotSelected": "未选择 Steam 可执行文件。",
+        "solution": "如果出现了此错误但可执行文件确实正确，请尝试以管理员身份运行。"
+      },
+      "failedToSetTheGameFolder": {
+        "title": "设置 {gameName} 文件夹失败",
+        "listedExecutableNames": "可执行文件必须是以下之一：\"{options}\"。",
+        "executableMustBeOneOf": "所选可执行文件必须是以下之一：",
+        "solution": "如果出现了此错误但可执行文件确实正确，请尝试以管理员身份运行。"
+      },
+      "clearingGameDirectory": {
+        "title": "正在清空 {gameName} 安装目录",
+        "waitToLaunchGame": "在 Steam 校验完游戏文件完整性之前，你将无法启动游戏。",
+        "steamWillBeStarted": "Steam 将会启动，并尝试校验 {gameName} 的完整性。",
+        "checkSteamForProgress": "请查看 Steam 窗口中的校验进度。如果窗口尚未出现，请耐心等待。",
+        "confirmation": "我明白了"
+      },
+      "dependencyStrings": {
+        "title": "依赖字符串列表",
+        "dependency": "{modName}-{versionNumber}",
+        "close": "关闭"
+      },
+      "launchArguments": {
+        "title": "设置自定义启动参数",
+        "someProvidedByDefault": "以下是一些默认提供的参数：",
+        "moddedLabel": "带 Mod：",
+        "availableAfterInstallingLoader": "安装 Mod 加载器后即可使用这些参数。",
+        "vanillaLabel": "原版：",
+        "pleaseNote": "请注意，这些参数是针对 Steam 可执行文件调用的。输入自定义启动参数时请务必小心。",
+        "placeholder": "输入参数",
+        "updateArguments": "更新启动参数"
+      },
+      "categorySelector": {
+        "selectCategory": "选择分类",
+        "noCategoriesSelected": "未选择任何分类"
+      },
+      "importLocalMod": {
+        "title": "从文件导入 Mod",
+        "dialogTitle": "从文件导入本地 Mod",
+        "actions": {
+          "selectFile": "选择文件",
+          "importLocalMod": "导入本地 Mod"
+        },
+        "content": {
+          "instructToSelect": "请选择要导入的 zip 或 DLL 文件。",
+          "dataEntryInfo": "包含 manifest 文件的 zip 会自动填入部分信息。如果没有 manifest，则需要手动填写。",
+          "waitingForSelection": "正在等待文件，可能需要一分钟。",
+          "form": {
+            "modName": {
+              "label": "Mod 名称",
+              "placeholder": "输入 Mod 名称"
+            },
+            "modAuthor": {
+              "label": "作者",
+              "placeholder": "输入作者名称"
+            },
+            "description": {
+              "label": "描述（可选）",
+              "placeholder": "输入描述"
+            },
+            "version": {
+              "label": "版本",
+              "majorLabel": "主版本",
+              "minorLabel": "次版本",
+              "patchLabel": "修订版本"
+            }
+          }
+        },
+        "validationMessages": {
+          "modNameEmpty": "Mod 名称不能为空。",
+          "authorNameEmpty": "Mod 作者不能为空。",
+          "invalidVersion": "主版本、次版本和修订版本必须是大于 0 的整数。",
+          "nonNumericVersion": "主版本、次版本和修订版本必须都是数字。",
+          "noProfileSelected": "未选择配置档。"
+        }
+      },
+      "concerningPackage": {
+        "title": "查看 {modName}",
+        "notFound": "此 Mod 原本从 Thunderstore 下载，但现在已无法在网站上找到。",
+        "whyRemoved": "Mod 可能因作者要求、违反规定或正在接受管理员审核而被移除。",
+        "recommendation": "通常建议卸载已从 Thunderstore 移除的 Mod。",
+        "exportWarning": "其他人将无法从导出的配置档中导入此 Mod。",
+        "actions": {
+          "markSafe": "将此版本标记为安全",
+          "remove": "移除 Mod",
+          "review": "查看 Mod"
+        }
+      },
+      "gameRunning": {
+        "starting": "{gameName} 正在启动",
+        "launchingViaSteam": "{gameName} 正通过 Steam 启动",
+        "closeToContinue": "关闭此提示即可继续管理 Mod。",
+        "takingAWhile": "如果耗时较久，通常是 Steam 正在启动。",
+        "bePatient": "请耐心等待，祝你玩得开心！",
+        "close": "关闭"
+      },
+      "error": {
+        "title": "错误",
+        "suggestion": "建议",
+        "close": "关闭"
+      },
+      "disableMod": {
+        "title": "正在禁用 {modName}",
+        "dependantsWarning": "有其他 Mod 依赖于此 Mod。请选择{disableAllAction}，一并禁用依赖它的 Mod，否则可能引发报错。",
+        "modsToBeDisabled": "将被禁用的 Mod",
+        "actions": {
+          "disableAll": "全部禁用",
+          "disableAllRecommended": "全部禁用（推荐）",
+          "disableOnly": "仅禁用 {modName}"
+        }
+      },
+      "uninstallMod": {
+        "title": "正在卸载 {modName}",
+        "dependantsWarning": "有其他 Mod 依赖于此 Mod。请选择{uninstallAllAction}，一并卸载依赖它的 Mod，否则可能引发报错。",
+        "modsToBeUninstalled": "将被卸载的 Mod",
+        "actions": {
+          "uninstallAll": "全部卸载",
+          "uninstallAllRecommended": "全部卸载（推荐）",
+          "uninstallOnly": "仅卸载 {modName}"
+        }
+      },
+      "associatedMods": {
+        "title": "与 {modName} 关联的 Mod",
+        "dependencies": "依赖项",
+        "dependants": "被依赖项",
+        "none": "此 Mod 没有依赖项，也没有被其他 Mod 依赖。",
+        "done": "完成"
+      },
+      "codeExport": {
+        "title": "配置档已导出",
+        "description": "你的代码已复制到剪贴板，也可以在下方手动复制：",
+        "done": "完成",
+        "copied": "已复制到剪贴板"
+      },
+      "downloadProgress": {
+        "states": {
+          "downloading": "正在下载 {modName}",
+          "installing": "正在安装 {modName}"
+        },
+        "complete": "下载完成",
+        "close": "关闭",
+        "downloadProgress": "正在下载：{progress}%（共 {totalSize}）",
+        "installProgress": "正在安装：{progress}%",
+        "extractionProgress": "正在解压：{progress}%（共 {totalSize}）",
+        "waitingForDownload": "正在安装：等待下载完成"
+      },
+      "downloadModVersionSelect": {
+        "title": "选择要下载的 {modName} 版本",
+        "content": {
+          "recommendedDisclaimer": "建议为所有 Mod 选择最新版本。",
+          "outdatedModsAdvice": "使用过旧的版本可能会导致问题。"
+        },
+        "tags": {
+          "select": "你必须选择一个版本",
+          "recommended": "{version} 是推荐版本",
+          "latest": "{version} 是最新版本",
+          "outdated": "{version} 是过旧的版本"
+        },
+        "download": "下载（含依赖项）"
+      },
+      "updateAllInstalledMods": {
+        "noModsToUpdate": {
+          "title": "没有需要更新的 Mod",
+          "content": "要么所有已安装的 Mod 都是最新的，要么你还没有安装任何 Mod。",
+          "close": "关闭"
+        },
+        "hasModsToUpdate": {
+          "title": "更新所有已安装的 Mod",
+          "content": {
+            "willBeUpdated": "所有已安装的 Mod 都将更新到最新版本。",
+            "missingDependenciesInstalled": "缺失的依赖项也会一并安装。",
+            "whatWillHappen": "以下 Mod 将被下载并安装：",
+            "modUpdatedTo": "{modName} 将更新到：{version}"
+          },
+          "updateAll": "全部更新"
+        }
+      },
+      "launchType": {
+        "title": "设置启动方式",
+        "auto": {
+          "NATIVE": "你的游戏将使用「Native」方式启动",
+          "PROTON": "你的游戏将使用「Proton」方式启动"
+        },
+        "native": {
+          "unsureWrapperArgsPresent": "我们无法确定所需的包装参数是否已设置。",
+          "addArgumentsInfo": "如果你还没有手动设置过，请在 Steam 中把以下启动参数添加到该游戏的属性里："
+        },
+        "actions": {
+          "copyLaunchArgs": "复制启动参数",
+          "update": "更新"
+        }
+      },
+      "modFilter": {
+        "title": "筛选 Mod 分类",
+        "languageDisclaimer": "分类由 Thunderstore 提供，无法翻译。",
+        "selectors": {
+          "atLeastOneCategory": "Mod 必须包含以下至少一个分类",
+          "allCategories": "Mod 必须包含以下全部分类",
+          "noneCategories": "Mod 不能包含以下任何分类"
+        },
+        "allowNsfw": "允许 NSFW（可能含成人内容）的 Mod",
+        "showDeprecated": "显示已弃用的 Mod",
+        "apply": "应用筛选"
+      },
+      "sort": {
+        "title": "更改 Mod 排序方式",
+        "sortBehaviour": "排序方式",
+        "sortDirection": "排序方向",
+        "close": "关闭"
+      },
+      "createProfile": {
+        "title": "新建配置档",
+        "description": "此配置档将独立于其他配置档存放自己的 Mod。",
+        "tagStates": {
+          "required": "你必须输入配置档名称",
+          "valid": "\"{profileName}\" 是有效的配置档名称",
+          "error": "\"{profileName}\" 已被使用，或包含无效字符"
+        },
+        "actions": {
+          "create": "创建"
+        }
+      },
+      "deleteProfile": {
+        "title": "删除配置档",
+        "content": {
+          "resultingAction": "这将移除该配置档中安装的所有 Mod 及其配置文件。",
+          "preventAction": "如果是误操作，请点击变暗的区域，或右上角的叉号。",
+          "confirmation": "确定要删除此配置档吗？"
+        },
+        "actions": {
+          "delete": "删除配置档"
+        }
+      },
+      "renameProfile": {
+        "title": "重命名配置档",
+        "content": "此配置档将独立于其他配置档存放自己的 Mod。",
+        "actions": {
+          "rename": "重命名"
+        },
+        "tagStates": {
+          "required": "你必须输入配置档名称",
+          "valid": "\"{profileName}\" 是有效的配置档名称",
+          "error": "\"{profileName}\" 已被使用，或包含无效字符"
+        }
+      },
+      "importProfile": {
+        "dialogTitle": "导入配置档",
+        "dialogButton": "导入",
+        "states": {
+          "fileCodeSelection": {
+            "title": "你想以哪种方式导入配置档？",
+            "actions": {
+              "fromFile": "从文件导入",
+              "fromCode": "从代码导入"
+            }
+          },
+          "fromFile": {
+            "title": "正在加载文件",
+            "content": "将弹出文件选择窗口。选择配置档后可能需要等待片刻。"
+          },
+          "importCode": {
+            "title": "输入配置档代码",
+            "enterCodePlaceholder": "输入配置档代码",
+            "tagStates": {
+              "invalid": "代码无效，请检查是否输入有误"
+            },
+            "actions": {
+              "loading": "正在加载",
+              "proceed": "继续"
+            }
+          },
+          "refresh": {
+            "title": "正在刷新在线 Mod 列表",
+            "content": {
+              "description": "配置档中的部分 Mod 包未被 Mod 管理器识别。刷新在线 Mod 列表也许能解决问题。请稍候。",
+              "waitingForModDownloads": "正在等待 Mod 下载完成，然后再刷新在线 Mod 列表"
+            }
+          },
+          "reviewImport": {
+            "title": "将要安装的 Mod 包",
+            "content": {
+              "notFoundDisclaimer": "配置档中的以下 Mod 包在 Thunderstore 上未找到，将不会被安装：",
+              "ensureCorrectProfile": "请确认该配置档确实适用于当前所选游戏。",
+              "packagesWillBeInstalled": "以下 Mod 包将被安装："
+            },
+            "actions": {
+              "acknowledgement": "我明白部分 Mod 不会被导入",
+              "proceed": "导入"
+            }
+          },
+          "willImportOrUpdate": {
+            "title": "你是要更新已有配置档，还是新建一个？",
+            "actions": {
+              "newProfile": "导入为新配置档",
+              "existingProfile": "更新已有配置档"
+            }
+          },
+          "addProfile": {
+            "title": "导入配置档",
+            "content": {
+              "create": {
+                "description": "此配置档将独立于其他配置档存放自己的 Mod。"
+              },
+              "update": {
+                "contentsWillBeOverwritten": "该配置档的全部内容将被代码 / 文件中的内容覆盖。",
+                "selectProfile": "在下方选择一个配置档："
+              }
+            },
+            "tagStates": {
+              "required": "你必须输入配置档名称",
+              "valid": "\"{profileName}\" 是有效的配置档名称",
+              "error": "\"{profileName}\" 已被使用，或包含无效字符"
+            },
+            "actions": {
+              "create": "创建",
+              "update": "更新配置档：{profileName}"
+            }
+          },
+          "importInProgress": {
+            "title": {
+              "downloadingMods": "正在下载 Mod：{progress}%",
+              "downloadingModsWithGoal": "正在下载 Mod：{progress}%（共 {totalSize}）",
+              "cleaningUp": "正在清理",
+              "applyChanges": "正在将更改应用到更新的配置档",
+              "copyingModsToProfile": "正在复制 Mod 到配置档：{progress}%",
+              "copyingConfigsToProfile": "正在复制配置文件到配置档：{progress}%"
+            },
+            "content": {
+              "waitMessage": "由于需要下载、解压并复制文件，这可能需要一段时间。",
+              "doNotClose": "请不要关闭 {appName}。"
+            }
+          }
+        }
+      },
+      "platform": {
+        "header": "你的游戏由哪个平台管理？",
+        "selectAction": "选择平台"
+      },
+      "settingsLoader": {
+        "managerProblem": "这是 Mod 管理器自身的问题。如果有更新版本的管理器，请尝试安装。",
+        "loadFailed": "加载本地用户设置失败。你可以使用下方按钮重置设置，但请注意，所有游戏的全部设置都将丢失，且无法撤销。",
+        "resetAction": "重置设置",
+        "resetFailed": "重置设置失败。你仍然可以按照这些{instructionsLink}手动重置设置。",
+        "instructionsLinkText": "说明",
+        "resetDidNotHelp": "本地存储的设置已重置，但仍未解决设置加载问题。如果有更新版本的管理器，请尝试安装。"
+      },
+      "actions": {
+        "close": "关闭"
+      }
+    },
+    "enums": {
+      "sortNaming": {
+        "CUSTOM": "自定义",
+        "MOD_NAME": "Mod 名称",
+        "AUTHOR": "作者名称",
+        "INSTALL_DATE": "安装日期"
+      },
+      "sortDirection": {
+        "STANDARD": "正序",
+        "REVERSE": "倒序"
+      },
+      "sortLocalDisabledMods": {
+        "NONE": "无",
+        "CUSTOM": "自定义",
+        "FIRST": "置顶",
+        "LAST": "置底"
+      },
+      "sortingStyle": {
+        "RELEVANCE": "相关度",
+        "LAST_UPDATED": "最后更新",
+        "ALPHABETICAL": "字母顺序",
+        "DOWNLOADS": "下载量",
+        "RATING": "评分"
+      },
+      "launchType": {
+        "AUTO": "自动",
+        "NATIVE": "Native",
+        "PROTON": "Proton"
+      },
+      "sortConfigFile": {
+        "NAME": "名称",
+        "LAST_UPDATED": "最后更新"
+      }
+    }
+  }
+}
